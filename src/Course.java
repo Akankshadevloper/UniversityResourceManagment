@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-// Course.java
+
 public class Course {
     private String courseCode;
     private String courseName;
@@ -9,7 +9,7 @@ public class Course {
     private int[] examMarks;
     private ArrayList<Teacher> teachers;
 
-    // Constructor
+   
     public Course(String courseCode, String courseName, int maxCapacity) {
         this.courseCode = courseCode;
         this.courseName = courseName;
@@ -19,7 +19,7 @@ public class Course {
         this.teachers = new ArrayList<>();
     }
 
-    // Getter methods
+ 
 
     public String getCourseCode() {
         return courseCode;
@@ -37,7 +37,7 @@ public class Course {
         return currentEnrollment;
     }
 
-    // Other methods
+    
 
     public boolean enrollStudent(Student student) {
         if (currentEnrollment < maxCapacity) {
@@ -56,8 +56,7 @@ public class Course {
     }
 
     public void conductExam() {
-        // Code to conduct exam and assign marks
-        // (For simplicity, let's assume marks are randomly generated here)
+        
         for (int i = 0; i < currentEnrollment; i++) {
             examMarks[i] = (int) (Math.random() * 100);
         }
