@@ -34,4 +34,4 @@ To run the University Management System on your local machine, follow these step
 1. Clone the repository:
 
    ```bash
-    git clone 
+    git clone https://github.com/Akankshadevloper/UniversityResourceManagment.git
