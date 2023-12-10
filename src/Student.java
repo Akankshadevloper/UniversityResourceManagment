@@ -1,4 +1,4 @@
-// Student.java
+
 import java.util.ArrayList;
 
 public class Student {
@@ -6,14 +6,14 @@ public class Student {
     private String name;
     private ArrayList<Course> enrolledCourses;
 
-    // Constructor
+
     public Student(String studentId, String name) {
         this.studentId = studentId;
         this.name = name;
         this.enrolledCourses = new ArrayList<>();
     }
 
-    // Getter methods
+ 
 
     public String getStudentId() {
         return studentId;
@@ -23,7 +23,7 @@ public class Student {
         return name;
     }
 
-    // Other methods
+  
 
     public void addCourse(Course course) {
         enrolledCourses.add(course);
